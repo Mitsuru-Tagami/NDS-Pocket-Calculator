@@ -1,4 +1,4 @@
-# NDS Calculator
+# NDS Pocket Calculator
 
 A simple calculator application for the Nintendo DS, built using devkitPro.
 
@@ -28,11 +28,11 @@ Navigate to the project root directory and run `make`:
 make
 ```
 
-This will generate `nds_calculator.nds` in the project root.
+This will generate `nds_pocket_calculator.nds` in the project root.
 
 ## Running the Application
 
-Copy the `nds_calculator.nds` file to your Nintendo DS flashcard or load it in a DS emulator.
+Copy the `nds_pocket_calculator.nds` file to your Nintendo DS flashcard or load it in a DS emulator.
 
 ## Credits
 
