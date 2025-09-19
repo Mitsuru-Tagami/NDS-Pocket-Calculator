@@ -1,0 +1,22 @@
+# Gemini chat logs
+gemini_chat_log_*.txt
+
+# Blog draft
+2025-09-18blog下書き.txt
+
+# Build artifacts
+*.nds
+*.elf
+*.map
+build/
+
+# Temporary/cleanup directories
+cleanup_archive/
+
+# Script files and their outputs
+scripts/
+test_input.txt
+test_output.scr
+
+# Formatted text files
+formatted_text1.txt
