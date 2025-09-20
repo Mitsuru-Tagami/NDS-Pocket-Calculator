@@ -143,6 +143,7 @@ void kanaIME_update(void) {
             }
             memmove(input_romaji_buffer, &input_romaji_buffer[matched_len], input_romaji_len - matched_len + 1);
             input_romaji_len -= matched_len;
+            input_romaji_buffer[input_romaji_len] = 0; // ここを追加
         }
 
         for (int i = 0; i < converted_kana_len; i++) {

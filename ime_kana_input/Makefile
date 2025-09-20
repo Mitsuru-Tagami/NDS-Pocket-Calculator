@@ -58,7 +58,7 @@ export OUTPUT    := $(CURDIR)/$(TARGET)
 export VPATH     := $(foreach dir,$(SOURCES),$(CURDIR)/$(dir))
 export DEPSDIR   := $(CURDIR)/$(BUILD)
 
-CFILES          := main.c kana_ime.c draw_font.c mplus_font_10x10.c mplus_font_10x10alpha.c
+CFILES          := main.c kana_ime.c draw_font.c mplus_font_10x10.c mplus_font_10x10alpha.c ipaex_font_data.c
 CPPFILES        := $(foreach dir,$(SOURCES),$(notdir $(wildcard $(dir)/*.cpp)))
 SFILES          := $(foreach dir,$(SOURCES),$(notdir $(wildcard $(dir)/*.s)))
 BINFILES        := $(foreach dir,$(SOURCES),$(notdir $(wildcard $(dir)/*.bin)))
