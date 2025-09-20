@@ -1,0 +1,3 @@
+[submodule "canna"]
+	path = canna
+	url = https://github.com/canna-input/canna
